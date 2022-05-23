@@ -1,0 +1,474 @@
+@import 'https://fonts.googleapis.com/css?family=Merriweather|Open/+Sans';
+@import 'https://fonts.googleapis.com/css?family=Old/+Standard/+TT|Oswald';
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html {
+  font-size: 16px;
+  font-size: 100%;
+}
+body {
+  font-family: 'Old Standard TT', Georgia, serif;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size-adjust: auto;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+}
+html,
+body {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0e4a18;
+  font-family: oswald;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-family: old-standard-tt;
+}
+hr {
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  height: 0;
+  padding: 0;
+  margin: 1.5em 0;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  z-index: 10;
+}
+header nav {
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header nav ul {
+  white-space: nowrap;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+header nav ul li a {
+  color: #63c;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  font-family: oswald;
+  text-transform: uppercase;
+  opacity: 0.6;
+  transition: opacity 0.15s ease;
+}
+header nav ul li .active,
+header nav ul li :hover,
+header nav ul li :focus {
+  opacity: 1;
+}
+.box-shadow {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+main {
+  margin: 0px 50px 0px 50px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: rgba(255,175,89,0.1);
+}
+@media only screen and (min-width: 1440px) {
+  main {
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+main p {
+  line-height: 150%;
+  margin: 12px 0;
+}
+main a {
+  text-decoration: none;
+  color: #63c;
+}
+main .logo-top {
+  text-align: center;
+  width: 100%;
+  min-width: 250px;
+  padding-top: 50px;
+}
+main .logo-top img {
+  width: 100%;
+  max-width: 560px;
+  opacity: 0.9;
+}
+main section {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main section .catalogue {
+  overflow: hidden;
+}
+main section .catalogue .catalogueItem {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+}
+main section .catalogue .catalogueItem:before,
+main section .catalogue .catalogueItem:after {
+  content: '';
+  display: table;
+}
+main section .catalogue .catalogueItem:after {
+  clear: both;
+}
+main section .catalogue .catalogueItem:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 425px) {
+  main section .catalogue .catalogueItem {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section .catalogue .catalogueItem:first-child {
+    margin-left: auto;
+  }
+  main section .catalogue .catalogueItem:last-child {
+    margin-right: auto;
+  }
+}
+main section .contact {
+  overflow: hidden;
+}
+main section .contact img {
+  vertical-align: top;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+}
+main section .contact span {
+  font-family: oswald;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+main section .contact .phone {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+}
+main section .contact .phone:before,
+main section .contact .phone:after {
+  content: '';
+  display: table;
+}
+main section .contact .phone:after {
+  clear: both;
+}
+main section .contact .phone:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 520px) {
+  main section .contact .phone {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section .contact .phone:first-child {
+    margin-left: auto;
+  }
+  main section .contact .phone:last-child {
+    margin-right: auto;
+  }
+}
+main section .contact .mail {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+}
+main section .contact .mail:before,
+main section .contact .mail:after {
+  content: '';
+  display: table;
+}
+main section .contact .mail:after {
+  clear: both;
+}
+main section .contact .mail:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 520px) {
+  main section .contact .mail {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section .contact .mail:first-child {
+    margin-left: auto;
+  }
+  main section .contact .mail:last-child {
+    margin-right: auto;
+  }
+}
+footer {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: #63c;
+}
+footer .centered {
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer .centered img {
+  width: 100%;
+  height: 50px;
+  opacity: 0.3;
+}
+footer .centered p {
+  text-align: center;
+}
+
+ /*# sourceMappingURL=master.css.map */
